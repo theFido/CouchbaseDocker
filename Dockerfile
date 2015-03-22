@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Fidencio Garrido
+MAINTAINER Fidencio Garrido. fidencio.garrido@gmail.com
 RUN yum -y upgrade && yum -y install initscripts openssl wget tar
 WORKDIR /home
 RUN wget http://packages.couchbase.com/releases/3.0.1/couchbase-server-community-3.0.1-centos6.x86_64.rpm
