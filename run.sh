@@ -1,0 +1,1 @@
+sudo docker run -p=8091:8091 --name="cbase_server" couchbase:cb3 /bin/bash
